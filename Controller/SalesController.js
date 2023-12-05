@@ -3,7 +3,7 @@
 // const {Sales} = require("../Model/sales");
 
 const { Sales } = require("../Model/sales");
-
+//
 const getSalesData = async (req, res) => {
   try {
     const salesData = await Sales.findOne(); // Assuming there is only one record for overall sales
