@@ -2,7 +2,8 @@
 
 const { Bill } = require("../Model/bill");
 const { Item } = require("../Model/item");
-const {Sales} = require("../Model/sales");
+const { Sales } = require("../Model/sales");
+// const {Sales} = require("../Model/sales");
 
 
 const createBill = async (req, res) => {
