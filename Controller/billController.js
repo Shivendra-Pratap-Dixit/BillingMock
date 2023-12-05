@@ -7,7 +7,7 @@ const {Sales} = require("../Model/sales");
 
 const createBill = async (req, res) => {
     const { items } = req.body;
-  
+  //hi
     try {
         if (!items || !Array.isArray(items) || items.length === 0) {
             return res.status(400).json({ error: 'Invalid input. Items array is required.' });
